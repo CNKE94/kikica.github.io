@@ -32,8 +32,8 @@ onUnmounted(() => {
 
 <template>
   <div class="py-8 text-center bg-orange-200">
-    <AppHeading class="text-4xl lg:text-6xl mb-10" heading="h2" title="Венчање почиње за:" />
-    <div class="flex justify-center gap-x-4">
+    <AppHeading class="text-3xl lg:text-5xl mb-10" heading="h2" title="Венчање почиње за:" />
+    <div class="flex justify-center gap-x-2 lg:gap-x-4">
         <AppCountdown :number="timeRemaining.days" subtitle="Дана" />
         <AppCountdown :number="timeRemaining.hours" subtitle="Сати" />
         <AppCountdown :number="timeRemaining.minutes" subtitle="Минута" />

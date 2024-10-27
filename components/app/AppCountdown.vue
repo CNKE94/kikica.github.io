@@ -7,8 +7,8 @@ defineProps<Props>();
 </script>
 
 <template>
-    <div class="bg-slate-300 rounded-lg p-3 min-w-44">
-        <p class="text-5xl lg:text-7xl">{{ number }}</p>
-        <p class="text-3xl lg:text-4xl mt-5">{{ subtitle }}</p>
+    <div class="bg-slate-300 rounded-lg py-4 lg:py-8 px-1 min-w-20 lg:px-3 lg:min-w-44">
+        <p class="text-2xl lg:text-5xl">{{ number }}</p>
+        <p class="text-lg lg:text-3xl mt-2 lg:mt-5">{{ subtitle }}</p>
     </div>
 </template>
