@@ -3,9 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
 
-  app: {
-    baseURL: '/kikica.github.io/',
-  },
+  // app: {
+  //   baseURL: '/kikica.github.io/',
+  // },
   css: ["~/assets/css/main.css"],
 
   postcss: {

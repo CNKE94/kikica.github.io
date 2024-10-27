@@ -3,5 +3,6 @@
 <template>
   <div>
     <MainComponent />
+    <CountdownComponent />
   </div>
 </template>
