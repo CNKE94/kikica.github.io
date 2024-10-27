@@ -5,4 +5,12 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/kikica.github.io/',
   },
+  css: ["~/assets/css/main.css"],
+
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 })
