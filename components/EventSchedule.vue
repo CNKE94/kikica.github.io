@@ -29,7 +29,7 @@ const details = [
     <AppContainer class="flex flex-col bg-orange-200">
         <div class="text-center pb-10 mb-10 border-b-2 border-orange-500">
             <p class="text-xl">Распоред догађаја</p>
-            <AppHeading class="text-3xl mt-3" heading="h2" title="Субота, 31. Мај 2025" />
+            <AppHeading class="text-3xl mt-3" heading="h2" title="Субота, 31. мај 2025." />
         </div>
         <div class="grid gap-5 sm:grid-cols-1 lg:grid-cols-2">
             <AppCard

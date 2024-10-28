@@ -17,6 +17,7 @@ useHead({
 
 useSeoMeta({
   title: "Кристина & Иван",
+  description: "Позивница за Венчање",
   charset: "utf-8",
   viewport: "width=device-width, initial-scale=1",
   ogImage: {

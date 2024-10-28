@@ -24,7 +24,7 @@ const details = {
            heading="h2" 
            :title="details.description"
           />
-          <p class="w-3/4 mx-auto text-2xl lg:text-4xl mt-8 pt-8 lg:mt-14 lg:pt-14 border-t-4 border-orange-500">Субота, 31 Мај 2025</p>
+          <p class="w-3/4 mx-auto text-2xl lg:text-4xl mt-8 pt-8 lg:mt-14 lg:pt-14 border-t-4 border-orange-500">Субота, 31. мај 2025.</p>
         </div>
       </div>
   </div>
