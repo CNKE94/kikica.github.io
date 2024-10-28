@@ -16,6 +16,12 @@ useSeoMeta({
   title: "Кристина & Иван",
   charset: "utf-8",
   viewport: "width=device-width, initial-scale=1",
+  ogImage: {
+    url: `/images/vencanje.jpg`,
+    width: 1200,
+    height: 630,
+    type: "image/jpeg",
+  },
 
 })
 </script>
