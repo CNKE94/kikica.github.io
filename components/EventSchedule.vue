@@ -1,5 +1,6 @@
 <script setup lang="ts">
-const details = [{
+const details = [
+{
     heading: "Црквено Венчање",
     icon: "church.svg",
     time: "13:30 часова",
@@ -25,7 +26,7 @@ const details = [{
     <AppContainer class="flex flex-col bg-orange-200">
         <div class="text-center pb-10 mb-10 border-b-2 border-orange-500">
             <p>Распоред догађаја</p>
-            <AppHeading class="text-3xl mt-3" heading="h2" title="Недеља, 22. Октобар 2025"></AppHeading>
+            <AppHeading class="text-3xl mt-3" heading="h2" title="Недеља, 31. Мај 2025"></AppHeading>
         </div>
         <div class="grid gap-5 sm:grid-cols-1 lg:grid-cols-2">
             <AppCard
