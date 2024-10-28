@@ -19,5 +19,6 @@ onMounted(() => {
             ref="audio"
             src="/sound/little-things.mp3"
         />
+        <button @click="playAudio">Play Audio</button> 
     </div>
 </template>
