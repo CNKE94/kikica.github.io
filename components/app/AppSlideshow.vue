@@ -41,7 +41,7 @@ onBeforeUnmount(pauseSlideshow);
           v-for="(image, index) in props.images"
           :key="index"
           :src="image"
-          class="flex-shrink-0 w-full h-72 lg:h-[550px] bg-cover bg-center object-cover"
+          class="flex-shrink-0 w-full h-80 sm:h-[500px] md:h-[400px] lg:h-[550px] bg-cover bg-center object-cover"
         />
     </div>
   </div>

@@ -3,7 +3,5 @@
 <template>
   <main>
     <slot />
-    <!-- <NuxtRouteAnnouncer />
-    <NuxtWelcome /> -->
   </main>
 </template>

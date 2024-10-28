@@ -15,7 +15,7 @@ defineProps<Props>();
         <AppHeading class="text-3xl font-bold" heading="h2" :title="heading" />
         <NuxtImg :src="icon" alt="icon" class="w-20 mx-auto" />
         <p class="text-lg font-semibold">{{ time }}</p>
-        <p class="text-xl">{{ place }}</p>
+        <p class="text-2xl">{{ place }}</p>
         <p>{{ address }}</p>
         <NuxtLink
          :to="src" 

@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Kurale";
+    src: url('@/assets/fonts/Kurale-Regular.ttf') format('truetype');
+}
+
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Kurale', sans-serif;
     color: #C7A003;
 }
 
