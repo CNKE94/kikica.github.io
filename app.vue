@@ -10,7 +10,7 @@ useHead({
     {
       rel: "icon",
       type: "image/x-icon",
-      href: "/images/wedding-couple.svg",
+      href: "/kikica.github.io/images/wedding-couple.svg",
     },
   ],
 });
