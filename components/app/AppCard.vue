@@ -14,8 +14,8 @@ defineProps<Props>();
     <div class="flex flex-col px-10 pt-10 pb-4 bg-white rounded-lg text-center gap-y-4">
         <AppHeading class="text-3xl font-bold" heading="h2" :title="heading" />
         <NuxtImg :src="icon" alt="icon" class="w-20 mx-auto" />
-        <p>{{ time }}</p>
-        <p>{{ place }}</p>
+        <p class="text-lg font-semibold">{{ time }}</p>
+        <p class="text-xl">{{ place }}</p>
         <p>{{ address }}</p>
         <NuxtLink
          :to="src" 

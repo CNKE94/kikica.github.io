@@ -9,7 +9,7 @@ const details = {
   <div class="relative lg:h-[100vh]">
     <NuxtImg
         class="object-cover w-full h-full"
-        src="/images/vencanje.jpeg"
+        src="/images/vencanje.jpg"
         alt="alt"
     />
     <div class="absolute top-1/3 lg:top-1/2 left-1/2 translate-x-[-50%] text-center w-full">

@@ -32,7 +32,7 @@ onBeforeUnmount(pauseSlideshow);
 </script>
 
 <template>
-  <div class="overflow-hidden relative">
+  <div class="mx-auto rounded-md overflow-hidden relative lg:w-2/3">
     <div
       class="flex transition-transform ease-in-out duration-[2000ms]"
       :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
@@ -41,7 +41,7 @@ onBeforeUnmount(pauseSlideshow);
           v-for="(image, index) in props.images"
           :key="index"
           :src="image"
-          class="flex-shrink-0 w-full h-64 bg-cover bg-center object-cover"
+          class="flex-shrink-0 w-full h-72 lg:h-[550px] bg-cover bg-center object-cover"
         />
     </div>
   </div>
