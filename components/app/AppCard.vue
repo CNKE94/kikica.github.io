@@ -20,7 +20,7 @@ defineProps<Props>();
         <NuxtLink
          :to="src" 
          target="_blank"
-         class="flex justify-center gap-x-2 p-2 rounded-lg text-white bg-orange-400 my-6"
+         class="flex justify-center gap-x-2 p-2 rounded-lg text-white bg-orange-400 my-6 hover:opacity-85"
         >
         <NuxtImg src="images/location.svg" alt="icon" class="text-white w-5" />
          Нађи на мапи
