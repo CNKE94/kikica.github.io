@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const runtimeConfig = useRuntimeConfig();
+
 useHead({
   htmlAttrs: {
     lang: "en",
@@ -17,7 +19,7 @@ useSeoMeta({
   charset: "utf-8",
   viewport: "width=device-width, initial-scale=1",
   ogImage: {
-    url: `/images/vencanje.jpg`,
+    url: `${runtimeConfig.public.baseUrl}/images/vencanje.jpg`,
     width: 1200,
     height: 630,
     type: "image/jpeg",
