@@ -6,5 +6,6 @@
     <CountdownComponent />
     <EventSchedule />
     <FooterComponent />
+    <SlideShowComponent />
   </div>
 </template>

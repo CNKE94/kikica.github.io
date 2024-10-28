@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
@@ -7,5 +6,6 @@
     <CountdownComponent />
     <EventSchedule />
     <FooterComponent />
+    <SlideShowComponent />
   </div>
 </template>
