@@ -5,5 +5,6 @@
     <MainComponent />
     <CountdownComponent />
     <EventSchedule />
+    <FooterComponent />
   </div>
 </template>
