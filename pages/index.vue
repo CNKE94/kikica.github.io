@@ -4,5 +4,6 @@
   <div>
     <MainComponent />
     <CountdownComponent />
+    <EventSchedule />
   </div>
 </template>
