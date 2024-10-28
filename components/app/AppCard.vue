@@ -5,7 +5,7 @@ interface Props {
   time: string;
   place: string;
   address: string;
-  style?: string;
+  src?: string;
 }
 defineProps<Props>();
 </script>
@@ -17,5 +17,13 @@ defineProps<Props>();
         <p>{{ time }}</p>
         <p>{{ place }}</p>
         <p>{{ address }}</p>
+        <NuxtLink
+         :to="src" 
+         target="_blank"
+         class="flex justify-center gap-x-2 p-2 rounded-lg text-white bg-orange-400 my-6"
+        >
+        <NuxtImg src="images/location.svg" alt="icon" class="text-white w-5" />
+         Нађи на мапи
+        </NuxtLink>
     </div>
 </template>

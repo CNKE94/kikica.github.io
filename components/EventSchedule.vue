@@ -5,19 +5,22 @@ const details = [
     icon: "church.svg",
     time: "13:30 часова",
     place: "Црква Св пророка Илије",
-    address: "Витезова Карађорђеве звезде 61, 11160 Миријево"
+    address: "Витезова Карађорђеве звезде 61, 11160 Миријево",
+    map: "https://maps.app.goo.gl/tvNoyNUgh3hA3ncv5",
 }, {
     heading: "Ресторан",
     icon: "restaurant.svg",
     time: "16:00 часова",
     place: "Ресторан Филмски Град",
-    address: "Кнеза Вишеслава 88, 11090 Београд"
+    address: "Кнеза Вишеслава 88, 11090 Београд",
+    map: "https://maps.app.goo.gl/K2HPxMzhY7PZePeW8",
 }, {
     heading: "Грађанско Венчање",
     icon: "wedding.svg",
     time: "17:15 часова",
     place: "Ресторан Филмски Град",
-    address: "Кнеза Вишеслава 88, 11090 Београд"
+    address: "Кнеза Вишеслава 88, 11090 Београд",
+    map: "https://maps.app.goo.gl/K2HPxMzhY7PZePeW8",
 }
 ];
 </script>
@@ -37,6 +40,7 @@ const details = [
              :time="event.time" 
              :place="event.place"
              :address="event.address"
+             :src="event.map"
             />
         </div>
     </AppContainer>
