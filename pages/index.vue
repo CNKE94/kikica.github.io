@@ -14,7 +14,7 @@ const playAudio = () => {
 </script>
 
 <template>
-  <div>
+  <div @scroll="playAudio">
     <MainComponent />
     <CountdownComponent />
     <EventSchedule />
@@ -22,7 +22,7 @@ const playAudio = () => {
     <SlideShowComponent />
     <AppSound />
   </div>
-  <div @scroll="playAudio">
+  <div>
     <audio
       ref="audio"
       src="/kristinaivanvencanje/sound/little-things.mp3"
