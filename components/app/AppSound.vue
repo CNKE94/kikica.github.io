@@ -8,9 +8,13 @@ const playAudio = () => {
         });
     }
 };
-onMounted(() => {
+// onMounted(() => {
+//     playAudio();
+// });
+
+const handleAudioLoaded = () => {
     playAudio();
-});
+};
 </script>
 
 <template>
@@ -18,6 +22,7 @@ onMounted(() => {
         <audio
             ref="audio"
             src="/kikica.github.io/sound/little-things.mp3"
+            @loadedmetadata="handleAudioLoaded"
         />
     </div>
 </template>
