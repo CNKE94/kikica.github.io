@@ -23,6 +23,7 @@ onMounted(() => {
             ref="audio"
             loop
             src="/kristinaivanvencanje/sound/little-things.mp3"
+            muted
         />
     </div>
 </template>
