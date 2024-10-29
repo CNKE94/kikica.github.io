@@ -21,6 +21,7 @@ onMounted(() => {
     <div>
         <audio
             ref="audio"
+            loop
             src="/kikica.github.io/sound/little-things.mp3"
         />
     </div>
