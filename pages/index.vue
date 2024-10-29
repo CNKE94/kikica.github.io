@@ -11,10 +11,14 @@ const playAudio = () => {
     });
   }
 };
+
+onMounted(() => {
+  playAudio();
+});
 </script>
 
 <template>
-  <div @scroll="playAudio">
+  <div @scroll="playAudio" @load="playAudio">
     <MainComponent />
     <CountdownComponent />
     <EventSchedule />
