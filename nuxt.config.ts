@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   app: {
-    baseURL: '/kikica.github.io/',
+    baseURL: '/kristinaivanvencanje/',
   },
   css: ["~/assets/css/main.css"],
 
