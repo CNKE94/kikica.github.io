@@ -21,10 +21,7 @@ onMounted(() => {
     <div>
         <audio
             ref="audio"
-            loop
             src="/kristinaivanvencanje/sound/little-things.mp3"
-            muted
         />
-        <button @click="playAudio">Play Audio</button>
     </div>
 </template>
