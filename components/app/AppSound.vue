@@ -3,20 +3,14 @@ const audio = ref<HTMLAudioElement | null>(null);
 
 const playAudio = () => {
     if (audio.value) {
-        audio.value.play()
-        .then(() => {
-                if (audio.value) {
-                    audio.value.muted = false;
-                }
-            })
-        .catch(error => {
+        audio.value.play().catch(error => {
             console.error("Error playing audio:", error);
         });
     }
 };
-// onMounted(() => {
+onMounted(() => {
     playAudio();
-// });
+});
 </script>
 
 <template>
