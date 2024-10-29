@@ -3,18 +3,18 @@ const audio = ref<HTMLAudioElement | null>(null);
 
 const playAudio = () => {
     if (audio.value) {
-        audio.value.play().catch(error => {
+        audio.value.muted = true; // Start muted to bypass autoplay restrictions
+        audio.value.play().then(() => {
+            audio.value!.muted = false; // Unmute once playback begins
+        }).catch(error => {
             console.error("Error playing audio:", error);
         });
     }
 };
-// onMounted(() => {
-//     playAudio();
-// });
 
-const handleAudioLoaded = () => {
+onMounted(() => {
     playAudio();
-};
+});
 </script>
 
 <template>
@@ -22,7 +22,6 @@ const handleAudioLoaded = () => {
         <audio
             ref="audio"
             src="/kikica.github.io/sound/little-things.mp3"
-            @loadedmetadata="handleAudioLoaded"
         />
     </div>
 </template>
