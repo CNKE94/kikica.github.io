@@ -14,9 +14,9 @@ const playAudio = () => {
         });
     }
 };
-onBeforeMount(() => {
+// onMounted(() => {
     playAudio();
-});
+// });
 </script>
 
 <template>
