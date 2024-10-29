@@ -12,13 +12,13 @@ const playAudio = () => {
     }
 };
 
-// onMounted(() => {
-//     playAudio();
-// });
+onMounted(() => {
+    playAudio();
+});
 </script>
 
 <template>
-    <div @scroll="playAudio">
+    <div>
         <audio
             ref="audio"
             src="/kristinaivanvencanje/sound/little-things.mp3"
