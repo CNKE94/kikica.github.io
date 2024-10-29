@@ -3,9 +3,9 @@ const audio = ref<HTMLAudioElement | null>(null);
 
 const playAudio = () => {
     if (audio.value) {
-        audio.value.muted = true; // Start muted to bypass autoplay restrictions
+        audio.value.muted = true;
         audio.value.play().then(() => {
-            audio.value!.muted = false; // Unmute once playback begins
+            audio.value!.muted = false;
         }).catch(error => {
             console.error("Error playing audio:", error);
         });
