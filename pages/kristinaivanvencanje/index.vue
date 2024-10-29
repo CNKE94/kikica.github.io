@@ -7,6 +7,5 @@
     <EventSchedule />
     <FooterComponent />
     <SlideShowComponent />
-    <AppSound />
   </div>
 </template>
