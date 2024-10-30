@@ -12,7 +12,7 @@ const details = {
         src="/images/vencanje.jpg"
         alt="alt"
     />
-    <div class="flex flex-col h-full w-full justify-around absolute top-0 left-1/2 translate-x-[-50%] text-center">
+    <div class="flex flex-col h-full w-full justify-around absolute top-0 left-1/2 translate-x-[-50%] text-center px-4">
         <AppHeading
          class="text-4xl md:text-6xl lg:text-8xl" 
          heading="h1" 
