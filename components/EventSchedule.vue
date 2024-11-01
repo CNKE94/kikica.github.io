@@ -4,7 +4,7 @@ const details = [
     heading: "Црквено Венчање",
     icon: "church.svg",
     time: "13:30 часова",
-    place: "Црква Св пророка Илије",
+    place: "Црква Св. пророка Илије",
     address: "Витезова Карађорђеве звезде 61, 11160 Миријево",
     map: "https://maps.app.goo.gl/tvNoyNUgh3hA3ncv5",
 }, {

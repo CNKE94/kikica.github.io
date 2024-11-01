@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-const targetDate = new Date(2025, 4, 31, 23, 59, 59);
+const targetDate = new Date(2025, 4, 31, 15, 59, 59);
 const timeRemaining = ref({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 let intervalId: number | undefined;
 
