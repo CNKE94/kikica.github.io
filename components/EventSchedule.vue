@@ -17,7 +17,7 @@ const details = [
 }, {
     heading: "Грађанско Венчање",
     icon: "wedding.svg",
-    time: "17:15 часова",
+    time: "17:00 часова",
     place: "Ресторан Филмски Град",
     address: "Кнеза Вишеслава 88, 11090 Београд",
     map: "https://maps.app.goo.gl/K2HPxMzhY7PZePeW8",
